@@ -1,0 +1,21 @@
+{
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "classnames": "npm:classnames@^2.1.1",
+      "fetch": "npm:whatwg-fetch@^0.8.2",
+      "jquery": "github:components/jquery@^2.1.4",
+      "lodash-node": "npm:lodash-node@^3.8.0",
+      "marked": "npm:marked@^0.3.3",
+      "react": "npm:react@^0.14.0-alpha1",
+      "whatwg-fetch": "npm:whatwg-fetch@^0.8.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}

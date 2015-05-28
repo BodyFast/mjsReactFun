@@ -1,0 +1,46 @@
+.vg-board {
+    position: relative;
+    margin: 10px;
+    width: 320px;
+}
+
+.vg-column {
+    float: left;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.vg-column:hover {
+    background-color: cyan;
+}
+
+.vg-cell {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 2px;
+    position: relative;
+}
+
+.vg-cell-state-none {
+    background-color: white;
+}
+
+.vg-cell-state-red {
+    background-color: red;
+}
+
+.vg-cell-state-yellow {
+    background-color: yellow;
+}
+
+.vg-cell-win-member:after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+}
